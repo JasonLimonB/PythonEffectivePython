@@ -16,7 +16,7 @@ class Empleado:
         return self.__puesto
     
     # Ahora vamos a poner un setter osea modificar un atributo de nuestra clase y es con el decorador nombre del atributo mas la palabra setter
-    # Para esto debemos usar property y el mismo nombre que usamos en el get 
+    # Para esto debemos usar property y el mismo nombre que usamos en el get y de la misma manera el mismo nombre de la funcion o metodo
     @puesto_empleado.setter
     def puesto_empleado(self, puesto) -> None: # Recibimos tambien el nuevo valor a modificar
         self.__puesto = puesto
